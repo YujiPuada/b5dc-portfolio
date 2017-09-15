@@ -1,0 +1,167 @@
+.navbar-default {
+    border-radius: 0;
+    border-style: none;
+    background-color: #252c41;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f4f5f9;
+    font-family: 'Cabin', sans-serif;
+    margin: 0 1.6em;
+    font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f1404b;
+}
+
+.banner {
+    background-color: #f4f5f9;
+    padding: 25% 0 20% 0;
+}
+
+.img-circle {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bannerText {
+    text-align: center;
+}
+
+h1 {
+    color: #f1404b;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #252c41;
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.4em;
+}
+
+.bannerText > p {
+    color: #f1404b;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+.aboutMe {
+    background-color: #252c41;
+    text-align: center;
+    color: #f4f5f9;
+    padding: 10% 0 30% 0;
+}
+
+#leftCol {
+    border-right: 2px solid #f1404b;
+}
+
+.aboutMe > h2 {
+    color: #f1404b;
+    margin-bottom: 15%;
+}
+
+.aboutMe > div > p,
+.aboutMe > div > div > ul > li {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4em;
+}
+
+.aboutMe > div > p {
+    max-width: 80%;
+    margin: 0 auto 5% auto;
+    text-align: justify;
+    color: #f4f5f9;
+}
+
+.aboutMe > div > h3 {
+    color: #f4f5f9;
+}
+
+.aboutMe > div > div > ul > li {
+    list-style-type: none;
+    color: #f1404b;
+    text-align: left;
+}
+
+.portfolio {
+    background-color: #dddfe6;
+    text-align: center;
+    padding: 10% 0 15% 0;
+}
+
+.portfolio > h2 {
+    margin-bottom: 10%;
+}
+
+.projectImgs {
+    width: 75%;
+    margin: 0 auto 10% auto;
+    border: 3px solid #252c41;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #252c41;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.portfolio > div > div > p {
+    color: #f1404b;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+}
+
+.contact {
+    background-color: #f1404b;
+    text-align: center;
+    padding: 10% 0 15% 0;
+}
+
+.contact > div > h2 {
+    margin-bottom: 7.5%;
+}
+
+.contact > div > p {
+    color: #f4f5f9;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4em;
+}
+
+.contact ul {
+    margin-top: 5%;
+}
+
+.contact a {
+    list-style-type: none;
+    color: #252c41;
+    font-size: 1.4em;
+    margin: 0 0.8em;
+}
+
+.contact li {
+    display: inline;
+}
+
+.contact a:hover {
+    color: #f4f5f9;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .contact li {
+        display: none;
+    }
+
+    .contact ul {
+        padding: 0;
+    }
+
+    #leftCol {
+        border-right-style: none;
+    }
+
+}
