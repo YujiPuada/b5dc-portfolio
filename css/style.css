@@ -53,6 +53,10 @@
     width: 100%;
 }
 
+.projLink .columns {
+    padding-bottom: 2.5rem;
+}
+
 .is-7 p {
     color: #926E00;
 }
